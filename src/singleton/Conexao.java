@@ -47,40 +47,4 @@ public class Conexao {
 			e.printStackTrace();
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-//	public Connection abreConexao() {
-//		try {
-//			Class.forName(TP_CONEXAO);
-//			conexao = DriverManager.getConnection(URL, USER, PASSWORD);
-//			System.out.println("conectei ao bd");
-//		} catch (ClassNotFoundException | SQLException ex) {
-//			ex.printStackTrace();
-//		}
-//		return conexao;
-//	}
-//
-//	public void fechaConexao() {
-//		if (conexao != null) {
-//			try {
-//				this.conexao.close();
-//				System.out.println("fechei conexao ao bd");
-//			} catch (SQLException e) {
-//				e.printStackTrace();
-//			}
-//		}
-//	}
-
 }
